@@ -46,6 +46,13 @@ let defaultConfig = require('tailwindcss/defaultConfig')()
 let colors = {
   'transparent': 'transparent',
 
+  'snow': '#FAF9F9',
+  'tomato': '#FF5757',
+  'pale-rose': '#E0D5D6',
+  'payne-s-grey': '#3E3D4C',
+  'sweet-pink': '#EC9D96',
+  'heliotrope': '#CC76EF',
+
   'black': '#22292f',
   'grey-darkest': '#3d4852',
   'grey-darker': '#606f7b',
@@ -194,18 +201,19 @@ module.exports = {
 
   fonts: {
     'sans': [
-      'system-ui',
-      'BlinkMacSystemFont',
-      '-apple-system',
-      'Segoe UI',
-      'Roboto',
-      'Oxygen',
-      'Ubuntu',
-      'Cantarell',
-      'Fira Sans',
-      'Droid Sans',
-      'Helvetica Neue',
-      'sans-serif',
+      'Nunito',
+      // 'system-ui',
+      // 'BlinkMacSystemFont',
+      // '-apple-system',
+      // 'Segoe UI',
+      // 'Roboto',
+      // 'Oxygen',
+      // 'Ubuntu',
+      // 'Cantarell',
+      // 'Fira Sans',
+      // 'Droid Sans',
+      // 'Helvetica Neue',
+      // 'sans-serif',
     ],
     'serif': [
       'Constantia',
@@ -325,6 +333,7 @@ module.exports = {
     'tight': '-0.05em',
     'normal': '0',
     'wide': '0.05em',
+    'wide-75': '0.075em',
   },
 
 
@@ -532,6 +541,8 @@ module.exports = {
     '32': '8rem',
     '48': '12rem',
     '64': '16rem',
+    '96': '24rem',
+    '128': '32rem',
     'full': '100%',
     'screen': '100vh',
   },

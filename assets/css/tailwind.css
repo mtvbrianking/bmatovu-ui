@@ -11,6 +11,19 @@
  */
 @tailwind preflight;
 
+a {
+	text-decoration: none;
+	@apply .no-underline;
+}
+
+.top-nav-item {
+	@apply .mr-5 .py-2 .text-snow .text-sm .font-semibold .tracking-wide-75 .border-b-2 .border-solid .border-tomato;
+}
+
+.top-nav-item:hover {
+	@apply .text-pale-rose .border-snow;
+}
+
 /**
  * This injects any component classes registered by plugins.
  *
