@@ -539,6 +539,12 @@ a {
   z-index: -1;
 }
 
+.trail-dot:after {
+  content: ' \25CF';
+  font-size: 10px;
+  color: #ff5757;
+}
+
 /**
  * This injects any component classes registered by plugins.
  *
