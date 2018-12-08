@@ -514,7 +514,7 @@ a {
   margin-right: 1.25rem;
   padding-top: .5rem;
   padding-bottom: .5rem;
-  color: #fff;
+  color: #faf9f9;
   font-size: .875rem;
   font-weight: 600;
   letter-spacing: .075em;
@@ -525,7 +525,18 @@ a {
 
 .top-nav-item:hover {
   color: #e0d5d6;
-  border-color: #fff;
+  border-color: #faf9f9;
+}
+
+.image-wrapper:before {
+  content: "";
+  border: 10px solid #ff5757;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 20px;
+  right: 20px;
+  z-index: -1;
 }
 
 /**
@@ -6115,6 +6126,10 @@ a {
   font-size: 3rem;
 }
 
+.text-6xl {
+  font-size: 4rem;
+}
+
 .italic {
   font-style: italic;
 }
@@ -6403,6 +6418,14 @@ a {
 
 .w-64 {
   width: 16rem;
+}
+
+.w-80 {
+  width: 20rem;
+}
+
+.w-96 {
+  width: 24rem;
 }
 
 .w-auto {
@@ -12011,6 +12034,10 @@ a {
     font-size: 3rem;
   }
 
+  .sm\:text-6xl {
+    font-size: 4rem;
+  }
+
   .sm\:italic {
     font-style: italic;
   }
@@ -12299,6 +12326,14 @@ a {
 
   .sm\:w-64 {
     width: 16rem;
+  }
+
+  .sm\:w-80 {
+    width: 20rem;
+  }
+
+  .sm\:w-96 {
+    width: 24rem;
   }
 
   .sm\:w-auto {
@@ -17893,6 +17928,10 @@ a {
     font-size: 3rem;
   }
 
+  .md\:text-6xl {
+    font-size: 4rem;
+  }
+
   .md\:italic {
     font-style: italic;
   }
@@ -18181,6 +18220,14 @@ a {
 
   .md\:w-64 {
     width: 16rem;
+  }
+
+  .md\:w-80 {
+    width: 20rem;
+  }
+
+  .md\:w-96 {
+    width: 24rem;
   }
 
   .md\:w-auto {
@@ -23775,6 +23822,10 @@ a {
     font-size: 3rem;
   }
 
+  .lg\:text-6xl {
+    font-size: 4rem;
+  }
+
   .lg\:italic {
     font-style: italic;
   }
@@ -24063,6 +24114,14 @@ a {
 
   .lg\:w-64 {
     width: 16rem;
+  }
+
+  .lg\:w-80 {
+    width: 20rem;
+  }
+
+  .lg\:w-96 {
+    width: 24rem;
   }
 
   .lg\:w-auto {
@@ -29657,6 +29716,10 @@ a {
     font-size: 3rem;
   }
 
+  .xl\:text-6xl {
+    font-size: 4rem;
+  }
+
   .xl\:italic {
     font-style: italic;
   }
@@ -29945,6 +30008,14 @@ a {
 
   .xl\:w-64 {
     width: 16rem;
+  }
+
+  .xl\:w-80 {
+    width: 20rem;
+  }
+
+  .xl\:w-96 {
+    width: 24rem;
   }
 
   .xl\:w-auto {
